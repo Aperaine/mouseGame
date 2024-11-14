@@ -12,12 +12,14 @@ config_version=4
 
 config/name="Mouse Game"
 run/main_scene="res://scenes/Game.tscn"
+boot_splash/bg_color=Color( 0.858824, 0.74902, 0.560784, 1 )
 config/icon="res://icon.png"
 
 [display]
 
+window/size/resizable=false
 mouse_cursor/custom_image="res://assets/mouseCursor.png"
-mouse_cursor/custom_image_hotspot=Vector2( 1, 1 )
+mouse_cursor/custom_image_hotspot=Vector2( 3, 3 )
 
 [editor_plugins]
 
@@ -36,4 +38,5 @@ common/enable_pause_aware_picking=true
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
+environment/default_clear_color=Color( 0.858824, 0.74902, 0.560784, 1 )
 environment/default_environment="res://default_env.tres"
